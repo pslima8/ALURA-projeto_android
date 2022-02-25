@@ -1,14 +1,18 @@
 package br.com.alura.ceep.ui.recyclerview.adapter;
 
 import android.content.Context;
+
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.graphics.Color;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import java.io.Serializable;
 import java.util.Collections;
 import java.util.List;
 
@@ -68,12 +72,14 @@ public class ListaNotasAdapter extends RecyclerView.Adapter<ListaNotasAdapter.No
 
         private final TextView titulo;
         private final TextView descricao;
+        private final ConstraintLayout corFundoItem;
         private Nota nota;
 
         public NotaViewHolder(View itemView) {
             super(itemView);
             titulo = itemView.findViewById(R.id.item_nota_titulo);
             descricao = itemView.findViewById(R.id.item_nota_descricao);
+            corFundoItem = itemView.findViewById(R.id.item_nota_fundo);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -90,6 +96,11 @@ public class ListaNotasAdapter extends RecyclerView.Adapter<ListaNotasAdapter.No
         private void preencheCampo(Nota nota) {
             titulo.setText(nota.getTitulo());
             descricao.setText(nota.getDescricao());
+            String notaCor = nota.getCor();
+            if (notaCor == null){
+                notaCor="#FFFFFF";
+            }
+            corFundoItem.setBackgroundColor(Color.parseColor(notaCor));
         }
     }
 

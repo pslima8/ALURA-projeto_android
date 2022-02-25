@@ -28,9 +28,22 @@
         android:background="@android:color/transparent"
         android:gravity="top"
         android:hint="Descrição"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/lista_cores_recyclerview"
         app:layout_constraintEnd_toEndOf="@id/formulario_nota_titulo"
         app:layout_constraintStart_toStartOf="@id/formulario_nota_titulo"
         app:layout_constraintTop_toBottomOf="@id/formulario_nota_titulo" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lista_cores_recyclerview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:orientation="horizontal"
+        app:layoutManager="LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/formulario_nota_descricao"
+        tools:listitem="@layout/cor_nota" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

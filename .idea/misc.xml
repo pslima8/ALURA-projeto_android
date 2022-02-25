@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Desenvolvimento/ceep-recyclerview-parte2-aula-5/ceep-recyclerview-parte2-aula-5/app/src/main/res/layout/activity_formulario_nota.xml" value="0.20052083333333334" />
+        <entry key="..\:/Desenvolvimento/ceep-recyclerview-parte2-aula-5/ceep-recyclerview-parte2-aula-5/app/src/main/res/drawable/fundo_gradiente_insere_nota.xml" value="0.21666666666666667" />
+        <entry key="..\:/Desenvolvimento/ceep-recyclerview-parte2-aula-5/ceep-recyclerview-parte2-aula-5/app/src/main/res/drawable/palheta_azul.xml" value="0.21666666666666667" />
+        <entry key="..\:/Desenvolvimento/ceep-recyclerview-parte2-aula-5/ceep-recyclerview-parte2-aula-5/app/src/main/res/drawable/palheta_cores.xml" value="0.3880208333333333" />
+        <entry key="..\:/Desenvolvimento/ceep-recyclerview-parte2-aula-5/ceep-recyclerview-parte2-aula-5/app/src/main/res/layout/activity_formulario_nota.xml" value="0.25" />
         <entry key="..\:/Desenvolvimento/ceep-recyclerview-parte2-aula-5/ceep-recyclerview-parte2-aula-5/app/src/main/res/layout/activity_lista_notas.xml" value="0.371875" />
+        <entry key="..\:/Desenvolvimento/ceep-recyclerview-parte2-aula-5/ceep-recyclerview-parte2-aula-5/app/src/main/res/layout/cor_nota.xml" value="0.20052083333333334" />
         <entry key="..\:/Desenvolvimento/ceep-recyclerview-parte2-aula-5/ceep-recyclerview-parte2-aula-5/app/src/main/res/layout/item_nota.xml" value="0.20885416666666667" />
         <entry key="..\:/Desenvolvimento/ceep-recyclerview-parte2-aula-5/ceep-recyclerview-parte2-aula-5/app/src/main/res/layout/menu_lista_notas.xml" value="0.20885416666666667" />
         <entry key="..\:/Desenvolvimento/ceep-recyclerview-parte2-aula-5/ceep-recyclerview-parte2-aula-5/app/src/main/res/layout/switch_item.xml" value="0.371875" />
