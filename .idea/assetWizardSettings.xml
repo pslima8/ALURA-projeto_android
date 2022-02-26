@@ -108,6 +108,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="D:\Desenvolvimento\ceep-recyclerview-parte2-aula-5\ceep-recyclerview-parte2-aula-5\app\src\main\res\ceep-icon-android.png" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -303,11 +304,6 @@
                                 </PersistentState>
                               </value>
                             </entry>
-                          </map>
-                        </option>
-                        <option name="values">
-                          <map>
-                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>
